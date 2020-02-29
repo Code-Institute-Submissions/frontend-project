@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Oxanium&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <title>Viper Gym | Become more</title>
 </head>
@@ -20,8 +21,8 @@
 
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav mr-auto">
-                <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
-                <li class="nav-item mr-2"><a class="nav-link" href="/">Facilities</a></li>
+                <li class="active nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item mr-2"><a class="nav-link" href="facilities.html">Facilities</a></li>
                 <li class="nav-item mr-2"><a class="nav-link" href="/">Gallery</a></li>
                 <li class="nav-item mr-2"><a class="nav-link" data-toggle="modal" data-target="#signUpModal">Sign In / Sign Up</a></li>
             </ul>
@@ -29,50 +30,56 @@
     </nav>
     </header>
 <!-- Callout -->
-    <div class="row">
-        <div class="col-12">
-            <section class="callout jumbotron text-uppercase text-center" >
-                <h1>Don't just get fit</h1>
-                <h2>Get match fit</h2>
-                <button class="btn btn-outline-success btn-lg active" data-toggle="modal" data-target="#signUpModal">Join Now</button>
-            </section>
+    <div class="container-fluid callout-container">
+        <div class="row">
+            <div class="col-12">
+                <section class="callout jumbotron text-uppercase text-center" >
+                    <h1 class="jumbotron-header">Don't just get fit</h1>
+                    <h1 class="jumbotron-tag">Get match fit</h1>
+                    <button class="btn btn-green btn-lg active" data-toggle="modal" data-target="#signUpModal">Join Now</button>
+                </section>
+            </div>
         </div>
     </div>
 <!-- /.callout -->
 
-<!-- Features -->
-    <section class="features">
+<!-- Plan -->
+<div class="plan-container--green">
+    <div class="container plan-container content-container">
+        <section class="plan">
+            <div class="row">
+                <div class="col-12 page-header">
+                    <h2 class="text-uppercase">Three Step Fitness Plan</h2>
+                    <p>Follow our three step fitness plan to get the best results fast!</p>
+                </div>
+            </div>
+
         <div class="row">
-            <div class="col-12 my-6">
-                <h2 class="text-uppercase">Three Step Fitness Plan</h2>
-                <p>Follow our three step fitness plan to get the best results fast!</p>
+            <div class="col-12 col-lg-4">
+                <div class="plan">
+                <h3><i class="fa fa-mobile d-none d-sm-block" aria-hidden="true" ></i> Step One</h3>
+                <p>Book a workout through our app or walk in to one of our many gyms and get your work in.  </p>
             </div>
         </div>
-
-    <div class="row">
-        <div class="col-12 col-lg-4">
-            <div class="feature">
-            <h3><i class="fa fa-mobile d-none d-sm-block" aria-hidden="true" ></i> Step One</h3>
-            <p>Book a workout through our app or walk in to one of our many gyms and get your work in.  </p>
+            <div class="col-12 col-lg-4">
+                <div class="plan">
+                <h3><i class="fa fa-bolt d-none d-sm-block" aria-hidden="true" ></i> Step Two</h3>
+                <p>Restore your body in our recovery center to relax your tired muscles and mind. </p>
+                </div>
             </div>
-        </div>
-        <div class="col-12 col-lg-4">
-            <div class="feature">
-            <h3><i class="fa fa-bolt d-none d-sm-block" aria-hidden="true" ></i> Step Two</h3>
-            <p>Restore your body in our recovery center to relax your tired muscles and mind. </p>
+            <div class="col-12 col-lg-4">
+                <div class="plan">
+                <h3><i class="fa fa-battery-full d-none d-sm-block" aria-hidden="true"></i> Step Three</h3>
+                <p>Refuel and regain your energy with nutritious ready made meals from our canteen or cook at home with our free cook book given to every member. </p>
+                </div>
             </div>
-        </div>
-        <div class="col-12 col-lg-4">
-            <div class="feature">
-            <h3><i class="fa fa-battery-full d-none d-sm-block" aria-hidden="true"></i> Step Three</h3>
-            <p>Refuel and regain your energy with nutritious ready made meals from our canteen or cook at home with our free cook book given to every member. </p>
-            </div>
-        </div>
+        </div>    
+        </section>
     </div>
-    
-    </section>
-<!-- /.features -->
+</div>    
+<!-- /.plan -->
 
+<!-- SignUp -->
 <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -110,9 +117,11 @@
             </div>
         </div>
     </div>
+<!-- /.signup -->
 
-    
-    <footer class="container-fluid">
+    <footer class="container-fluid"> 
+        <div class="row">
+        <div class="col-12">
         <ul class="list-inline social-links">
                     <li class="list-inline-item">
                         <a target="_blank" href="https://facebook.com">
@@ -139,8 +148,10 @@
                         </a>
                     </li>
                 </ul>
-
+        </div>
+        </div>
     </footer>
+
     
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

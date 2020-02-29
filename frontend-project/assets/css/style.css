@@ -1,0 +1,129 @@
+body {
+    font-family: 'Oxanium', sans-serif;
+    text-align: center;
+}
+
+/*-------------------------------------------Nav bar */
+
+.navbar .navbar-brand {
+    font-weight: bold;
+    color: #66b933;
+}
+
+/*-------------------------------------------Header */
+
+.page-header{
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+/*-------------------------------------------Containers */
+
+.callout-container {
+    height: 100vh;
+
+    background: url("../images/viper.jpg") no-repeat bottom right fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.plan-container--green {
+    background-color: #66b933;
+    color: white;
+}
+
+.content-container{
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.facilties-container {
+    height: 100vh;
+
+    background: url("../images/tennis-court.jpg") no-repeat bottom right fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/*-------------------------------------------Jumbotron */
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron-header {
+    color: white;
+    font-weight: bold;
+}
+
+.jumbotron-tag {
+    color: #66b933;
+    font-weight: bold;
+}
+
+/*-------------------------------------------Button */
+
+.btn-green {
+    background-color: #66b933;
+    color: white;
+    min-width: 100px;
+    margin-top: 10px;
+}
+
+/*-------------------------------------------Plan */
+
+.plan{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.plan i{
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+/*-------------------------------------------Facilities */
+
+.facilities h3 {
+    color: #66b933;
+}
+
+.facilities p{
+    color: white;
+}
+
+/*-------------------------------------------Footer */
+
+footer {
+    background-color: #474140;
+    color: #fafafa;
+    min-height: 50px;
+    margin: 0;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 20px 0;
+    border-radius: 50%;
+    font-size: 21px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+}
