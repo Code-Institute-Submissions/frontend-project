@@ -108,7 +108,23 @@ body {
     color: white;
 }
 
+/*-------------------------------------------Photo */
+
+#photo {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0px;
+    background-color: black;
+}
+
+#photo img {
+    width: 100%;
+}
+
 /*-------------------------------------------Footer */
+
+
 
 footer {
     background-color: #474140;
@@ -126,4 +142,18 @@ footer {
     line-height: 7px;
     text-align: center;
     color: #fafafa;
+}
+
+/*-------------------------------------------Media Query */
+
+@media screen and (max-width:943px){
+    #photo {
+        column-count: 3;
+    }
+}
+
+@media screen and (max-width:800px){
+    #photo {
+        column-count: 2;
+    }
 }

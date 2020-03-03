@@ -23,7 +23,7 @@
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
                 <li class="active nav-item mr-2"><a class="nav-link" href="facilities.html">Facilities</a></li>
-                <li class="nav-item mr-2"><a class="nav-link" href="/">Gallery</a></li>
+                <li class="nav-item mr-2"><a class="nav-link" href="gallery.html">Gallery</a></li>
                 <li class="nav-item mr-2"><a class="nav-link" data-toggle="modal" data-target="#signUpModal">Sign In / Sign Up</a></li>
             </ul>
         </div>    
@@ -79,25 +79,37 @@
                     <form>
                         <div class="form-group">
                             <label for="fname">First Name</label>
-                            <input type="name" class="form-control" id="fname" placeholder="Enter First Name" required>
+                            <input type="name" class="form-control" id="fname" placeholder="Enter First Name">
                         </div>
                         <div class="form-group">
                             <label for="lname">Last Name</label>
-                            <input type="name" class="form-control" id="lname" placeholder="Enter Last Name" required>
+                            <input type="name" class="form-control" id="lname" placeholder="Enter Last Name">
                         </div>
                         <div class="form-group">
                             <label for="InputEmail">Email address</label>
-                            <input type="email" class="form-control" id="InputEmail" placeholder="Enter Email" required>
+                            <input type="email" class="form-control" id="InputEmail" placeholder="Enter Email">
                         </div>
                         <div class="form-group">
                             <label for="password">Password</label>
-                            <input type="password" class="form-control" id="password" placeholder="Enter Password" required>
+                            <input type="password" class="form-control" id="password" placeholder="Enter Password">
                         </div>
                         <div class="form-group">
                             <label for="repeatPassword">Repeat Password</label>
-                            <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password" required>
+                            <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password">
                         </div>
-                        <button type="submit" class="btn btn-success" data-toggle="modal" data-target="#signUpModal">Submit</button>
+                        <button type="submit" class="btn btn-green" data-toggle="modal" data-target="#signUpModal">Submit</button>
+                        <div class="modal-header">
+                        <h5 class="modal-title">Existing Members</h5>
+                        </div>
+                        <div class="form-group">
+                            <label for="uname">Username</label>
+                            <input type="uname" class="form-control" id="uname" placeholder="Enter Username">
+                        </div>
+                        <div class="form-group">
+                            <label for="upassword">Password</label>
+                            <input type="upassword" class="form-control" id="upassword" placeholder="Enter Password">
+                        </div>
+                        <button type="submit" class="btn btn-green" data-toggle="modal" data-target="#signUpModal">Log in</button>
                     </form>
                 </div>
             </div>
