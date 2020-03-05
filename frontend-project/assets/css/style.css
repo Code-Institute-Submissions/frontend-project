@@ -60,6 +60,26 @@ body {
 
 }
 
+.classes-container {
+    height: 100vh;
+
+    background: url("../images/woman.jpg") no-repeat bottom right fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#caption {
+    color: white;
+    text-align: center;
+}
+
 /*-------------------------------------------Jumbotron */
 
 .jumbotron {
@@ -142,6 +162,10 @@ footer {
     line-height: 7px;
     text-align: center;
     color: #fafafa;
+}
+
+#footer-details {
+    padding: 15px;
 }
 
 /*-------------------------------------------Media Query */
