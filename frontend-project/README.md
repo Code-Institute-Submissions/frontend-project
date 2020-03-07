@@ -1,65 +1,89 @@
 #Front-end Development milestone project
-The requirement for this project was to create a website 
+The requirement for this project was to create a website for a gym website where gym members or potential clients can learn more about the gym and the facilities it has. 
 
-Essentially, this part is your sales pitch.
+**UX**
+This website is mainly desgined for potential members and and provide them with an insight into Viper gym's way of training and how it differs from other gyms. 
+But mainly to encourge potential members not just to join but to actively particapte in classes, use all the facililites and follow the three step plan to get "match fit".
 
-UX
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+As a first time user and potential member I want to be able to learn more information about Viper Gym, look at the facilities, gallery and timetable to see what classes
+I would be interested in and sign up.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
+The website was designed to be simple but eye-catching to attract new members. All the sections include the same layout throughout the site for familiarity and just the right amount
+of information so the user can get an idea of how Viper gym operates, without the page appearing too busy. The site was also designed to look as good on desktop as on mobile keeping
+that same simplisitc theme throughout the user experience.
 
-As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+A pdf of the wireframe is included for reference;
+../frontend-project/wireframe-vipergym.pdf
 
-Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+**Home**
 
-Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
-...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+The landing page for the website mainly used to draw in the user and introduce them to the three step plan of Viper Gyym. As well as the location and how to get in contact or visit
+the gym's social media sites.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+The user can sign in or sign up directly from the home page below the jumbotron text.
 
-Features Left to Implement
-Another feature idea
-Technologies Used
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+**Facilites**
 
-JQuery
-The project uses JQuery to simplify DOM manipulation.
-Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+This page gives the user a breif overview of the four main facilities; the gym, sports dome, recovery center and trainers. 
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+**Gallery**
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+User can view various images of the gym to get and idea of the look and feel of the atmosphere, surroundings and equipment of the gym.
 
-Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+**CLasses**
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+Shows a seven day time table with three time slots for the various sports classes that a memeber can join and also choose the level of the class which is most suited to them.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+**Sign In / Sign Up**
 
-Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+A modal page where new members can join the gym by filling up the form or existing users can log in.
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+**Existing Features**
+Sign in / Sign Up Feature - A user can sign in or sign up directly from ang page on the site by clicking the feature on the header without the user having to leave the page they are currently on.
 
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
+Social links Feature - Users can directly access the gym's various social media sites by clicking on the relevant logo in the footer.
 
-Credits
-Content
-The text for section Y was copied from the Wikipedia article Z
-Media
-The photos used in this site were obtained from ...
-Acknowledgements
-I received inspiration for this project from X
+Here are some additional features that could be added in the future;
+
+**Additional Features**
+
+Live chat Feature - Users can live chat with an Viper Gym employee to ask questions and get feedback in real time.
+
+Shop Feature - Users can directly purchase Viper Gym merchandise directly on the site.
+
+**Technologies Used**
+
+Bootstrap - getbootstrap.com
+The project uses bootstap for the framework of the website.
+
+CSS tricks - csstricks.com
+The project uses CSS trick for the background images used in each section.
+
+Google Fonts - fonts.google.com
+The project uses google fonts for the main fonts used on the website.
+
+Font Awesome - fontawesome.com
+The project uses fontawesome for the icons used on the home page.
+
+**Testing**
+
+All of the pages were run on Github to ensure the code runs smoothly. All the pages of the website were tested so that the user can freely switch page.
+The Sign In / Sign Up modal was tested on every page to make sure that the user can sign in from anywhere.
+As well as the social media links on every page. 
+
+On the mobile version of the site all the pages are compressed to ensure a friendly user experience.
+On the home page the icons aren't included on mobile.
+On the facililites page only three facililites are lisited.
+All pages with column sections are viewed top down on the mobile so the user can scroll through the content.
+
+**Deployment**
+This project will be deployed on the GitHub pages.
+
+#Credits
+
+**Media**
+The photos used in this site were obtained from pxhere.com
+
+**Acknowledgements**
+I received inspiration for this project from the razer.com website.
+Also mainly from the projects completed previously from Code Institute i.e. Love Running, Resume and Whiskey Drop
