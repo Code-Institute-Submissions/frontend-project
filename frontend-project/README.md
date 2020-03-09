@@ -1,89 +1,139 @@
-#Front-end Development milestone project
-The requirement for this project was to create a website for a gym website where gym members or potential clients can learn more about the gym and the facilities it has. 
+# Front-end Milestone Project - Viper Gym
 
-**UX**
-This website is mainly desgined for potential members and and provide them with an insight into Viper gym's way of training and how it differs from other gyms. 
-But mainly to encourge potential members not just to join but to actively particapte in classes, use all the facililites and follow the three step plan to get "match fit".
+*Developer: Anthony Guillermo*
 
-As a first time user and potential member I want to be able to learn more information about Viper Gym, look at the facilities, gallery and timetable to see what classes
-I would be interested in and sign up.
+ - Project Brief 
+ - Technologies
+ - UXD
+ - Deployment
+ - Tests and Fixes
+ - Media
+ - Acknowledgements
+ 
 
-The website was designed to be simple but eye-catching to attract new members. All the sections include the same layout throughout the site for familiarity and just the right amount
-of information so the user can get an idea of how Viper gym operates, without the page appearing too busy. The site was also designed to look as good on desktop as on mobile keeping
-that same simplisitc theme throughout the user experience.
+## Project Brief
 
-A pdf of the wireframe is included for reference;
-../frontend-project/wireframe-vipergym.pdf
+In this project I was tasked with building a front-end site presenting useful information to users, using all the technologies  learnt so far in this course.
 
-**Home**
+The data was to be presented in way that helps users achieve their goals and and advance the site owners goals.
 
-The landing page for the website mainly used to draw in the user and introduce them to the three step plan of Viper Gyym. As well as the location and how to get in contact or visit
-the gym's social media sites.
+Build a website for a gym (Viper Gym) mainly using technologies such as HTML, CSS and as on option bootstrap and or other CSS libraries or frameworks. The project may be started using wireframes, as taught in the UX lesson.
 
-The user can sign in or sign up directly from the home page below the jumbotron text.
+Viper Gym is a relatively new business opened 5 years ago. The following requirements were given by the gym after meeting with the client;
 
-**Facilites**
+ - The users of the site are gym members and potential members who want to know about the gym and it's procedures
+ - They would also like to showcase photos of members using the gym, their facilities, classes and timetables for classes.
+ - Also provide information about the gym's location , opening hours and contact details.
 
-This page gives the user a breif overview of the four main facilities; the gym, sports dome, recovery center and trainers. 
+## Technologies
 
-**Gallery**
+ - HTML5
+ - CSS3
+ - [Bootstrap v4.4.1](https://getbootstrap.com/)
+- [Font Awesome v4.7.0](https://fontawesome.com/v4.7.0/)
 
-User can view various images of the gym to get and idea of the look and feel of the atmosphere, surroundings and equipment of the gym.
+## UXD
 
-**CLasses**
+**Strategy**
 
-Shows a seven day time table with three time slots for the various sports classes that a memeber can join and also choose the level of the class which is most suited to them.
+|Focus	|User Needs	|Business Objectives	|
+|:------------:|:------------:|:------------:|
+|Aims	|Interested in joining the gym	|Increase members	|
+|	|Look at gym's facilities/classes	|Retain members	|
+|Clients|Get membership for myself/pro athletes/friends| Increase customer base|
+|User objectives|View photos of gym members and facilities|Gain gym exposure
+|	|Read about gym philosophy/training plan|		|
+|	|Read about gym/sports dome/recovery center/trainers|		|
+|	|Find out address/contact information/social media links| 		|
+|	|Find out timetable of classes|		|
 
-**Sign In / Sign Up**
+**Scope**
 
-A modal page where new members can join the gym by filling up the form or existing users can log in.
+|Focus	|Functional Specification	|Content Requirements	|
+|:------------:|:------------:|:------------:|
+|Features	|Home	|Join gym/read 3 Step Plan	|
+|Future Features|Facilities	|Read about gym facilities	|
+|	|Gallery	|View photo gallery|
+|	|Classes	|View classes timetable|
+|	|Sign In / Sign Up|Join gym or member log in|
+|	|Where to find us|Access location and opening hours|
+|	|Get in touch|Access email address|
+|	|Social Media|Access social media links|
+|	|~~Bookings~~|~~Book a class or private workout~~|
 
-**Existing Features**
-Sign in / Sign Up Feature - A user can sign in or sign up directly from ang page on the site by clicking the feature on the header without the user having to leave the page they are currently on.
+**Structure**
 
-Social links Feature - Users can directly access the gym's various social media sites by clicking on the relevant logo in the footer.
+|Focus	|Interaction Design	|Information Architecture	|
+|:------------:|:------------:|:------------:|
+|Information Structure	|How to navigate the site	|Navigational Structure (Tree/Dashboard)	|
+|Groupings|Mobile- hamburger navigation|Home/Facilities/Gallery/Classes/Sign In Sign Up|
+|	|Desktop/Tablet - navbar|Home - Sign Up/Three Step Plan	|	
+|	|	|Facilities - Gym/Sports Dome/Recover Center/Trainers|
+|	|	|Gallery - Photos|
+|	|	|Classes - Timetable|
+|	|	|Sign In/Sign Up - Form (modal)|
 
-Here are some additional features that could be added in the future;
+**Skeleton**
 
-**Additional Features**
+|Focus	|Interaction Design	|Navigational Design	|
+|:------------:|:------------:|:------------:|
+|Presentation of information|wire frames link|Home|
+|User Navigation|Desktop/Tablet/Mobile - location/hours/email/social links in footer|Facilities
+|	|	|Gallery|
+|	|	|Classes|
+|	|	|Sign In/Sign Up|
 
-Live chat Feature - Users can live chat with an Viper Gym employee to ask questions and get feedback in real time.
+**Surface**
 
-Shop Feature - Users can directly purchase Viper Gym merchandise directly on the site.
+|Focus	|Visual Design	|
+|:------------:|:------------:|
+|Look of finished product|	|
+|Colors and typography used|[Oxanium Font](https://fonts.googleapis.com/css?family=Oxanium&display=swap)	|
+|	|#66b933	|
+|	|#474140|
 
-**Technologies Used**
+## Deployment
 
-Bootstrap - getbootstrap.com
-The project uses bootstap for the framework of the website.
+ - On project repo page on GitHub click on "Settings"
+ - Scroll  down to "GitHub Pages"
+ - Select master branch from drop down bar under "Sources"
+ - Select "Save"
+ - Project link: 
 
-CSS tricks - csstricks.com
-The project uses CSS trick for the background images used in each section.
+## Tests and Fixes
 
-Google Fonts - fonts.google.com
-The project uses google fonts for the main fonts used on the website.
+HTML Validator Results
+CSS Validator Results
 
-Font Awesome - fontawesome.com
-The project uses fontawesome for the icons used on the home page.
+**Mobile** 
+Tested on Chrome mobile simulator
 
-**Testing**
+***Mobile Issue***
+In facilities page was overlapping/blocking navigation bar
 
-All of the pages were run on Github to ensure the code runs smoothly. All the pages of the website were tested so that the user can freely switch page.
-The Sign In / Sign Up modal was tested on every page to make sure that the user can sign in from anywhere.
-As well as the social media links on every page. 
+***Mobile Fix***
+Adding a class in "Trainers" column to hide the text when on mobile.
 
-On the mobile version of the site all the pages are compressed to ensure a friendly user experience.
-On the home page the icons aren't included on mobile.
-On the facililites page only three facililites are lisited.
-All pages with column sections are viewed top down on the mobile so the user can scroll through the content.
+> class="col-12 col-lg-3 d-none d-sm-block"
 
-**Deployment**
-This project will be deployed on the GitHub pages.
+***Desktop/Tablet***
+Tested on Chrome desktop and tablet simulator
 
-#Credits
+***Desktop/Tablet Issue***
+There was a gap between the the "Hero Image" on the Home page and the "3 Step Plan" section. 
 
-**Media**
-The photos used in this site were obtained from pxhere.com
+***Desktop/Tablet Issue***
+In "content-container" changed "margin-top" to "padding-top".
 
-**Acknowledgements**
-I received inspiration for this project from the razer.com website.
-Also mainly from the projects completed previously from Code Institute i.e. Love Running, Resume and Whiskey Drop
+> .content-container {
+padding-top: 75px;
+padding-bottom: 75px;
+}
+
+## Media
+The photos used in this project were taken from [pxhere.com](pxhere.com)
+
+
+
+## Acknowledgements
+Inspiration for this project was taken from [razer.com](razer.com) , [Mamba Sports Academy](https://mambasportsacademy.com/) and previous Code Institute Projects (Love Running, Resume and Whiskey Drop).
