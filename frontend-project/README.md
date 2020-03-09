@@ -107,23 +107,29 @@ HTML Validator Results
 CSS Validator Results
 
 **Mobile** 
+
 Tested on Chrome mobile simulator
 
 ***Mobile Issue***
+
 In facilities page was overlapping/blocking navigation bar
 
 ***Mobile Fix***
+
 Adding a class in "Trainers" column to hide the text when on mobile.
 
 > class="col-12 col-lg-3 d-none d-sm-block"
 
 ***Desktop/Tablet***
+
 Tested on Chrome desktop and tablet simulator
 
 ***Desktop/Tablet Issue***
+
 There was a gap between the the "Hero Image" on the Home page and the "3 Step Plan" section. 
 
-***Desktop/Tablet Issue***
+***Desktop/Tablet Fix***
+
 In "content-container" changed "margin-top" to "padding-top".
 
 > .content-container {
@@ -132,10 +138,10 @@ padding-bottom: 75px;
 }
 
 ## Media
+
 The photos used in this project were taken from [pxhere.com](pxhere.com)
 
-
-
 ## Acknowledgements
+
 Inspiration for this project was taken from [razer.com](razer.com) , [Mamba Sports Academy](https://mambasportsacademy.com/) and previous Code Institute Projects (Love Running, Resume and Whiskey Drop).
               
