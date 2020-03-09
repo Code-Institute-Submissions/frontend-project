@@ -78,7 +78,7 @@ Viper Gym is a relatively new business opened 5 years ago. The following require
 
 |Focus	|Interaction Design	|Navigational Design	|
 |:------------:|:------------:|:------------:|
-|Presentation of information|[See Wireframe](https://github.com/anthonybguillermo/frontend-project/blob/master/frontend-project/wireframe/wireframe-vipergym.pdf)|Home|
+|Presentation of information|[See Wireframe](https://github.com/anthonybguillermo/frontend-project/blob/master/wireframe/wireframe-vipergym.pdf)|Home|
 |User Navigation|Desktop/Tablet/Mobile - location/hours/contact details/social links in footer|Facilities
 |	|	|Gallery|
 |	|	|Classes|
