@@ -1,3 +1,4 @@
+
 # Front-end Milestone Project - Viper Gym
 
 *Developer: Anthony Guillermo*
@@ -57,7 +58,7 @@ Viper Gym is a relatively new business opened 5 years ago. The following require
 |	|Classes	|View classes timetable|
 |	|Sign In / Sign Up|Join gym or member log in|
 |	|Where to find us|Access location and opening hours|
-|	|Get in touch|Access email address|
+|	|Get in touch|Access email address and phone|
 |	|Social Media|Access social media links|
 |	|~~Bookings~~|~~Book a class or private workout~~|
 
@@ -77,8 +78,8 @@ Viper Gym is a relatively new business opened 5 years ago. The following require
 
 |Focus	|Interaction Design	|Navigational Design	|
 |:------------:|:------------:|:------------:|
-|Presentation of information|wire frames link|Home|
-|User Navigation|Desktop/Tablet/Mobile - location/hours/email/social links in footer|Facilities
+|Presentation of information|[See Wireframe](https://github.com/anthonybguillermo/frontend-project/blob/master/frontend-project/wireframe/wireframe-vipergym.pdf)|Home|
+|User Navigation|Desktop/Tablet/Mobile - location/hours/contact details/social links in footer|Facilities
 |	|	|Gallery|
 |	|	|Classes|
 |	|	|Sign In/Sign Up|
@@ -137,3 +138,4 @@ The photos used in this project were taken from [pxhere.com](pxhere.com)
 
 ## Acknowledgements
 Inspiration for this project was taken from [razer.com](razer.com) , [Mamba Sports Academy](https://mambasportsacademy.com/) and previous Code Institute Projects (Love Running, Resume and Whiskey Drop).
+              
