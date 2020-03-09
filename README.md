@@ -99,12 +99,9 @@ Viper Gym is a relatively new business opened 5 years ago. The following require
  - Scroll  down to "GitHub Pages"
  - Select master branch from drop down bar under "Sources"
  - Select "Save"
- - Project link: 
+ - Project link: [Viper Gym](https://anthonybguillermo.github.io/frontend-project/) 
 
 ## Tests and Fixes
-
-HTML Validator Results
-CSS Validator Results
 
 **Mobile** 
 
